@@ -1,0 +1,14 @@
+### Add new book### Test Validation (Invalid Data)
+POST http://localhost:8081/api/books
+Content-Type: application/json
+
+{
+  "title": "",
+  "author": "",
+  "genre": "Programming",
+  "isbn": "",
+  "price": -100,
+  "description": "",
+  "stockQuantity": -5,
+  "imageUrl": ""
+}
